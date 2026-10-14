@@ -1,21 +1,39 @@
-# TuunExpansion v1.0.4 developer source
+# RoosterWorks Tuun Expansion — v1.0.4
 
-**Promised Worlds is required.**
+**Stable release · In-game tested by the maintainer**
 
-This source package matches the v1.0.4 source-map repair test. It contains the complete installable GameData tree, original four 2K maps, repaired 2K/4K maps, input seam strips, generated repair patches, a portable compositor/rebuild tool and validation/packaging tool. No external dependencies or personal absolute paths are required by the supplied rebuild scripts.
+TuunExpansion adds 16 planets and moons to the **Promised Worlds** Tuun system in Kerbal Space Program. It is an expansion, **not** a standalone planet pack.
 
-The four orbital joins were repaired on Ixia, Skab, Arktane and Lukas. Appearance still awaits in-game acceptance. Lukas tree flicker remains deferred. See GameData/TuunExpansion/RELEASE_NOTES.md. This source handoff does not promote the test to a confirmed stable release.
+**Worlds:** Hurr, Verda, Rem, Aven, Flot, Tavool, Tom, Lukas, Raga, Vez, Dot, Arktane, Skab, Kol, Bub, and Ixia. Tuun, Puf, and other upstream bodies come from Promised Worlds.
 
-## Contents and rebuild
+## Requirements
 
-- GameData/TuunExpansion: authoritative playable configs/assets, byte-identical to the v1.0.4 test payload.
-- Source/Maps: original, generated, composited and exported color-map assets. Generated patch images are retained so rebuilding does not require another image-generation request.
-- Tools/rebuild-color-maps.cjs: feather patch strips into the original sources, rebuild wrapped 4K exports, update GameData color maps. Requires Node.js and sharp 0.35.5.
-- Tools/package-runtime.py: validate local configs/asset paths and create a runtime-only ZIP. Requires Python 3 standard library.
-- Source/RepairPrompt.txt: the imagegen prompt used to create each repair patch.
-- SHA256SUMS.json: checksums of supplied source files.
+- **Required:** Promised Worlds, Kopernicus, ModuleManager
+- **For detailed terrain and scatters:** Parallax Continued, Parallax Stock Scatter Textures
+- **Recommended for full visuals:** Scatterer, Environmental Visual Enhancements (EVE)
+- **Optional:** Community Resource Pack (CRP) for additional resource distributions
 
-From the repository root:
+Install mutually compatible versions of these mods. Third-party dependencies are not included.
+
+## Installation
+
+1. Close KSP and back up your saves.
+2. Install Promised Worlds and required dependencies.
+3. Remove any older `GameData/TuunExpansion` folder.
+4. Extract the [v1.0.4 release ZIP](https://github.com/SockedRooster/RoosterWorks-Tuun-Expansion/releases/tag/v1.0.4) into the KSP directory, merging its `GameData` folder with the existing one.
+5. Launch KSP. Some scaled-space caches may regenerate.
+
+## v1.0.4 changes
+
+- Repaired orbital longitude color-map joins for **Ixia, Skab, Arktane, and Lukas**.
+- Rebuilt corrected orbital color maps at **4096 × 2048**.
+- Preserved the accepted v1.0.0 terrain, biome, science, and gameplay baseline.
+
+**Known limitation:** Lukas pine/oak tree flicker remains unresolved. High-resolution terrain and dense scatters may increase GPU workload; some old landed vessels may need repositioning after terrain changes inherited from earlier versions.
+
+## Source and development
+
+`GameData/TuunExpansion` is the playable mod. `Source/Maps` preserves original and repaired map assets; `Tools/rebuild-color-maps.cjs` rebuilds repaired maps (Node.js + sharp 0.35.5); `Tools/package-runtime.py` validates local config references and builds an installable ZIP (Python 3).
 
 ```sh
 npm install
@@ -23,7 +41,8 @@ npm run rebuild-maps
 python Tools/package-runtime.py
 ```
 
-The runtime packager can run without rebuilding maps or installing Node dependencies; checked-in GameData is ready to package. Changing source assets requires rebuilding before packaging. Verify appearance in KSP after any edits. Existing heightmaps and biome maps are authoritative assets; this package does not include a fully procedural regeneration pipeline for every historical planet texture.
+Rebuilding maps is optional for players. See [release notes](GameData/TuunExpansion/RELEASE_NOTES.md).
 
-For Git: repository name TuunExpansion, branch main. Suggested release tag v1.0.4 after accepting this test. No remote is configured or published by this task. Dependencies retain their licenses/authorship; no new project license is assigned here.
+## License and credits
 
+Original TuunExpansion contributions: **MIT**, see [LICENSE](LICENSE). Promised Worlds, Kopernicus, ModuleManager, Parallax, Scatterer, EVE, CRP, and their assets remain under their respective licenses and authorship. This repository does not relicense third-party material.

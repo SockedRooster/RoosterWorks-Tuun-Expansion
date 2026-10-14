@@ -1,0 +1,8 @@
+Hurr v0.12.1
+- Replaced cropped global-map Parallax materials with true periodic procedural textures.
+- Low/Mid/High/Steep diffuse and normal maps now wrap seamlessly.
+- Material control maps rebuilt from the same periodic field.
+- Widened low/mid/high altitude blend ranges.
+- Reduced displacement to avoid exaggerated close-ground transitions.
+- Dust deck lightened and reduced in opacity; upper haze retained.
+- Kopernicus/PQS/height architecture unchanged from stable v0.11.1.

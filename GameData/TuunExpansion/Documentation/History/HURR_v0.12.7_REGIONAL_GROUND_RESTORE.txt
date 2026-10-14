@@ -1,0 +1,17 @@
+Hurr v0.12.7 Regional Ground Restore
+
+Baseline: v0.12.5, where in-game screenshots proved Hurr's PQS regional colors work.
+
+Changes:
+- Restored v0.12.3 seamless rocky/granular Parallax detail materials.
+- Did NOT restore the failed v0.12.3 global influence-map experiment.
+- Uses low-strength neutral influence so Parallax primarily adds detail while the
+  proven v0.12.5 PQS/VertexColorMap remains responsible for regional coloration.
+- Explicitly forces Hurr ocean = False because Hurr is intended as a dry hostile world
+  and testing showed an unintended Splashed/sea-level condition.
+- Heightmap, stable VertexHeightMap architecture, atmosphere, Scatterer and EVE retained.
+
+Test:
+1) dark region near longitude ~-100,
+2) lighter region near longitude ~-40,
+3) previous 'Splashed' area near -14.4/-100.8 should now be dry/landed.

@@ -1,0 +1,91 @@
+// Tuun Expansion body roadmap / placeholders
+// IMPORTANT: this file deliberately contains NO Kopernicus Body{} nodes.
+// It reserves names and relationships for future development without altering the live system.
+
+// [PLANET] Hurr
+// parent = Tuun
+// status = Implemented in v0.2.1
+
+// [PLANET] Rem
+// parent = Tuun
+// status = Planned super-puff world
+
+// [MOON] Flot
+// parent = Rem
+// status = Planned volcanic moon
+
+// [MOON] Aven
+// parent = Rem
+// status = Planned small potentially habitable moon
+
+// [PLANET] Verda
+// parent = Tuun
+// status = Planned tidally locked terrestrial world
+
+// [PLANET] Puf
+// parent = Tuun
+// status = Existing Promised Worlds body; expansion compatibility placeholder only
+
+// [MOON] Bub
+// parent = Puf
+// status = Planned moon
+
+// [PLANET] Tavool
+// parent = Tuun
+// status = Planned ringed/complex outer-system world
+
+// [MOON] Tom
+// parent = Tavool
+// status = Planned moon
+
+// [MOON] Raga
+// parent = Tavool
+// status = Planned moon
+
+// [MOON] Lukas
+// parent = Tavool
+// status = Planned atmospheric/ocean-bearing moon
+
+// [MOON] Dot
+// parent = Tavool
+// status = Planned moon
+
+// [MOON] Vez
+// parent = Tavool
+// status = Planned distant/inclined ringed moon
+
+// [PLANET] Arktane
+// parent = Tuun
+// status = Planned outer-system world
+
+// [MOON] Skab
+// parent = Arktane
+// status = Planned moon
+
+// [MOON] Kol
+// parent = Arktane
+// status = Planned moon
+
+// [PLANET] Ixia
+// parent = Tuun
+// status = Planned outer-system body
+
+// [PLANET] Rask
+// parent = Tuun
+// status = Existing Promised Worlds body; compatibility placeholder only
+
+// [PLANET] Rusk
+// parent = Tuun
+// status = Existing Promised Worlds body; compatibility placeholder only
+
+// [PLANET] Glumo
+// parent = Tuun
+// status = Existing Promised Worlds body; compatibility placeholder only
+
+// [MOON] Merbel
+// parent = Glumo
+// status = Existing Promised Worlds body; compatibility placeholder only
+
+// [MOON] Noj
+// parent = Glumo
+// status = Existing Promised Worlds body; compatibility placeholder only

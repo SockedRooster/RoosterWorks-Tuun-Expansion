@@ -1,0 +1,9 @@
+Tuun Expansion v0.11.0 - Hurr OPM-Style Terrain Rebuild
+
+Built from v0.10.4 using the supplied working OPM Slate config as the technical reference.
+
+- Niako VertexMitchellNetravaliHeightMap removed.
+- Standard Kopernicus VertexHeightMap now loads Hurr_Height.png.
+- PQS material changed to AtmosphericExtra.
+- Ground material follows OPM Slate's CTTP cliff/rock/sand/gravel setup.
+- Hurr atmosphere, orbit, biomes, science, color map, geography values and procedural noise retained.

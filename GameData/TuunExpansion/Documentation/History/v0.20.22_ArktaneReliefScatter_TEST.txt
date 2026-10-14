@@ -1,0 +1,38 @@
+TuunExpansion v0.20.22 - Arktane Relief + Scatter Coverage TEST
+
+Based on v0.20.21. Approved Arktane/Vez ground textures and matching
+rock material references are unchanged. All Vez terrain data is unchanged.
+
+Arktane terrain:
+- Stronger rolling/ridged relief across Highlands and gentler relief on
+  Frozen Plains. Spherical waves span roughly 19/38/77 km features.
+- Actual Highlands height changes -1756 to +1735 m; Plains -606 to +612 m.
+- Basins and Polar height pixels remain byte-for-byte unchanged.
+- 2048x1024 16-bit data retained; no new maximum-height saturation.
+  The original one saturated height pixel remains. Biome boundaries are
+  feathered within edited biomes. Existing global heightmap seam is retained.
+- Deformity 14200 and offset -5200 unchanged. New Arktane_v02022.bin
+  cache path requests scaled-terrain regeneration. Atmosphere, orbit,
+  global color/biome maps and science remain unchanged.
+
+Scatter on both Vez and Arktane:
+- spawnChance 0.40 -> 1; populationMultiplier -> 16 (Vez from 8,
+  Arktane from 4). Nominal chance/population products increase 5x on
+  Vez and 10x on Arktane before filtering/settings/runtime limits.
+- cutoffScale 0.30 -> 0.15; maxNormalDeviance 0.18 -> 0.35. These
+  experimental distribution changes accompany the denser populations.
+- Minimum scale 0.10 -> 0.20. Maximum Vez scale 0.65 -> 0.90;
+  Arktane 0.85 -> 1.00, making stones easier to see.
+- Render limits set to 4320/12000/28800 on each body. Range remains
+  300 m; LOD transitions remain 75/150 m. Seeds, meshes, collision
+  level and surface-matched texture references remain unchanged.
+- Greater density can increase rendering/collision cost. Check frame
+  rate at the same locations. Nominal multipliers do not guarantee counts.
+
+Install: replace GameData/TuunExpansion with this ZIP's folder and
+restart KSP. Keep dependencies and allow Arktane cache regeneration.
+Reposition Arktane landed test craft before judging the changed surface.
+Compare Highlands and Plains elevation, verify retained Basins/Polar
+terrain, then check scatter coverage/placement and performance on both
+worlds. Terrain and package checks passed; in-game testing still required.
+All unrelated worlds, including Dot, remain intact. Lukas stays deferred.

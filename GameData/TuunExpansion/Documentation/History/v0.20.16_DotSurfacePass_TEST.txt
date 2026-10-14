@@ -1,0 +1,42 @@
+TuunExpansion v0.20.16 - Dot Surface Pass TEST
+
+First dedicated Dot surface-scatter pass. Adds Parallax/Dot_Scatters.cfg
+with DotCarbonRocks, a sparse dark rock population based on the existing
+Bub rock config and its stock Duna slab meshes/textures.
+
+Settings: seed 2116, spawnChance 0.035, populationMultiplier 2,
+scale 0.10-0.65, range 300 m, LOD transitions at 75 and 150 m.
+Terrain color sampling remains enabled; neutral gray tint 0.48 and
+environment factor 0.10 reduce the bright/tan appearance of the source
+material. Actual color and density depend on lighting and Parallax settings.
+Rocks align to terrain normals and avoid steep slopes using the existing
+scatter slope filters. Collision level remains 1 from the source config;
+actual collision behavior depends on the installed Parallax settings.
+
+Reviewed Dot's existing body, height/color maps, terrain material paths
+and PQS integration. Terrain geometry, maps, orbit, biomes, science and
+Parallax displacement (zero) are preserved for this first controlled pass.
+
+Baseline: uploaded TuunExpansion(3).zip, SHA256:
+7772401A1229F48D52386EA124DE4F28EC35016471646079D47A54400A8CEA08
+This restores the uploaded pre-v0.20.14 wind-isolation state, removing
+the v0.20.15 oak trunk experiment. No independently labeled v0.20.13
+archive was available; the upload's exact version is unconfirmed.
+All 367 baseline files remain byte-for-byte unchanged.
+
+Lukas tree flicker remains unresolved and deferred in TUUN_ROADMAP.md.
+
+Install: replace the existing GameData/TuunExpansion folder with the
+TuunExpansion folder from this ZIP, retaining installed dependencies.
+Requires PromisedWorlds, ParallaxContinued and the stock scatter assets
+already referenced by the expansion. Restart KSP fully before testing.
+
+Test Dot in daylight at several sites (basins, midlands and highlands).
+Check that rocks appear sparsely and sit on the surface, without hovering
+or sinking. Walk/drive around them and approach/recede across 75, 150
+and 300 m while panning the camera. Check collision behavior and frame
+rate. Report excessive darkness, density, popping/flicker or startup errors.
+
+Package checks validate structure, local asset paths and archive contents.
+External stock scatter assets and actual rendering require the user's
+KSP installation. This is an in-game test build, not a verified visual fix.

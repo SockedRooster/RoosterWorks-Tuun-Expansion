@@ -1,0 +1,19 @@
+Tuun Expansion v0.14.0 - System Visual Pass
+
+Hurr is intentionally frozen at the v0.12.12 state; its former-ocean rifts require a later dedicated terrain rebuild.
+
+Visual pass applied to: Rem, Flot, Aven, Verda, Bub, Tom, Raga, Lukas, Dot, Vez, Arktane, Skab, Kol, Ixia, plus Tavool atmospheric/cloud treatment.
+
+- Native body-specific Parallax material maps generated from each body color/height map.
+- Parallax visual displacement is zero on these bodies to preserve PQS/collision alignment.
+- Regional color is retained in low/mid/high/steep materials.
+- Conservative terrain-colored rock scatters added to solid bodies except Lukas and Dot.
+- Scatterer added for Lukas, Arktane, Ixia, Tavool. Existing Hurr/Rem/Aven/Verda configs retained.
+- EVE cloud treatment added for Lukas and Tavool; Verda cloud syntax normalized.
+- Ixia biome definitions rewritten to canonical multiline ConfigNode syntax; biome map retained.
+- Existing Promised Worlds bodies are untouched.
+
+TEST ORDER SUGGESTED:
+Rem -> Flot -> Aven -> Verda -> Bub -> Tavool -> Tom -> Raga -> Lukas -> Dot -> Vez -> Arktane -> Skab -> Kol -> Ixia
+
+This package is structurally validated but requires in-game visual testing.

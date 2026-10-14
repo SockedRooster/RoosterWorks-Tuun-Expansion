@@ -1,0 +1,6 @@
+Built-in image generation prompt:
+
+Use case: photorealistic-natural. Asset type: seamless square game ground albedo for Skab, a battered charcoal-gray airless moon with bright mineral impact scars. Orthographic top-down fine crushed angular silicate regolith, charcoal neutral gray dust, scattered tiny pale mineral fragments, subtle rough granular surface. Low contrast homogeneous material, dark but readable. Pure albedo flat diffuse illumination no shadows or highlights. Seamless opposing edges. No craters, circles, macro impact scars, continents, polar bands, grid, borders, large rocks, text, perspective, recognizable repeating motifs. Opaque square texture.
+
+Exported to 1024x1024 RGB PNG. Matching normal/data maps computed locally.
+Final texture: PluginData/Parallax/Skab/Skab_RegolithTex.png

@@ -1,0 +1,7 @@
+Built-in image generation prompt:
+
+Use case: photorealistic-natural. Asset type: seamless repeating 1024x1024 square PBR albedo game ground texture for a small carbon-rich airless moon, Dot, in Kerbal Space Program. Generate a perfectly tileable homogeneous dark neutral charcoal-gray fine regolith surface viewed orthographically straight down. Fine dusty granular grains and subtle tiny irregular mineral chips, low contrast, restrained multi-scale natural variation. Pure albedo with flat diffuse illumination: no directional light, no baked shadows, no highlights, no perspective. Seamless opposing edges, uniform statistical grain and brightness across entire tile. No craters, no circular features, no large rocks, no terrain map, no continents, no bands, no borders, no panels, no text. Avoid large recognizable shapes that reveal repetition. Opaque square raster texture.
+
+Generated output was exported to 1024x1024 RGB PNG for game use.
+Final albedo: PluginData/Parallax/Dot/Dot_RegolithTex.png
+Matching normal: PluginData/Parallax/Dot/Dot_RegolithNrm.png

@@ -1,0 +1,23 @@
+Body,Type,Parent,Status
+Hurr,planet,Tuun,Implemented in v0.2.1
+Rem,planet,Tuun,Groundwork implemented in v0.2.4
+Flot,moon,Rem,Groundwork implemented in v0.2.4
+Aven,moon,Rem,Groundwork implemented in v0.2.4
+Verda,planet,Tuun,Foundation implemented in v0.5.0; tidally locked terrestrial world
+Puf,planet,Tuun,Existing Promised Worlds body; expansion compatibility placeholder only
+Bub,moon,Puf,Implemented in v0.7.1
+Tavool,planet,Tuun,Implemented in v0.6.0; ringed outer-system giant
+Tom,moon,Tavool,Implemented in v0.7.1
+Raga,moon,Tavool,Implemented in v0.7.1
+Lukas,moon,Tavool,Implemented in v0.6.0; HABITABLE oxygenated ocean/continental moon
+Dot,moon,Tavool,Implemented in v0.7.1
+Vez,moon,Tavool,Implemented in v0.7.1; distant/inclined ringed moon
+Arktane,planet,Tuun,Planned outer-system world
+Skab,moon,Arktane,Planned moon
+Kol,moon,Arktane,Planned moon
+Ixia,planet,Tuun,Implemented in v0.9.4; remote frozen terrestrial world
+Rask,planet,Tuun,Existing Promised Worlds body; compatibility placeholder only
+Rusk,planet,Tuun,Existing Promised Worlds body; compatibility placeholder only
+Glumo,planet,Tuun,Existing Promised Worlds body; compatibility placeholder only
+Merbel,moon,Glumo,Existing Promised Worlds body; compatibility placeholder only
+Noj,moon,Glumo,Existing Promised Worlds body; compatibility placeholder only

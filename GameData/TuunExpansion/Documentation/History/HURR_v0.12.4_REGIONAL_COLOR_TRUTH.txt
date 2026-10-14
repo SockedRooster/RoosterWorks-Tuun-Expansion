@@ -1,0 +1,15 @@
+Hurr v0.12.4 Regional Color Truth Pass
+
+Direct Promised Worlds comparison showed that Parallax Influence maps are
+repeating terrain-material maps, not global planetary province masks.
+
+This batch:
+- Disables Hurr's ParallaxTerrain material shader only.
+- RETAINS Parallax PQS subdivision for terrain mesh detail.
+- Restores Hurr_Color.png / VertexColorMap as the authoritative landed color source.
+- Keeps heightmap, PQS geometry, atmosphere, Scatterer and EVE unchanged.
+- Tunes stock PQS triplanar material to be darker, less glossy and somewhat finer.
+
+Test goal:
+Land in an orbital dark region and an orbital light/rust region. Their landed
+colors should now correspond to the regions visible from orbit.

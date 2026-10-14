@@ -1,0 +1,7 @@
+Built-in image generation prompt:
+
+Use case: photorealistic-natural. Asset type: square seamless repeating game ground albedo for Vez, a cold blue-gray airless ringed moon in Kerbal Space Program. Orthographic top-down fine weathered icy regolith with small angular mineral grains and restrained frost flecks, muted slate blue-gray, moderate-dark brightness, subtle fine granular variation. Flat uniform illumination, pure albedo, no baked shadows or highlights. Homogeneous across tile, seamless opposing edges. No craters, circular marks, large rocks, cracks, continents, planet map, polar bands, borders, grid, text or perspective. No large identifiable repeating features. Opaque square image.
+
+Exported to 1024x1024 RGB PNG for game use.
+Albedo: PluginData/Parallax/Vez/Vez_RegolithTex.png
+Matching normal: PluginData/Parallax/Vez/Vez_RegolithNrm.png

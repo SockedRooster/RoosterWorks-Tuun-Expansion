@@ -1,0 +1,23 @@
+Hurr v0.10.1 - Ground Pass 2
+
+Based directly on the surface screenshots from the v0.10.0 test.
+
+Goal:
+Break up the smooth, uniformly painted appearance at landing distance without
+changing Hurr's approved global geography or orbital appearance.
+
+Changes:
+- PQS maxLevel 10 -> 11
+- more aggressive close-range subdivision
+- much tighter floor/cliff texture tiling
+- steeper terrain begins blending to cliff material sooner
+- stronger contrast and slightly darker ground material
+- primary procedural relief moved to higher spatial frequency
+- added a second low-amplitude, very high-frequency PQS noise layer for
+  lander/rover-scale bumps and surface breakup
+
+Atmosphere/science from v0.10.0 are retained unchanged.
+
+Test target:
+Land in roughly the same area as the previous screenshots and compare the
+surface at 5 km, 1 km, 100 m, and landed camera height.

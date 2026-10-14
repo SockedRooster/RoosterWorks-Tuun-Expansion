@@ -1,0 +1,66 @@
+{
+  "Ixia": {
+    "source_size": [
+      2048,
+      1024
+    ],
+    "export_size": [
+      4096,
+      2048
+    ],
+    "source_interior_byte_identical": true,
+    "source_edited_longitude_fraction": 0.1875,
+    "repaired_seam_rms": 5.557787095223541,
+    "internal_neighbor_rms": 1.2768046520649448,
+    "original_release_heightmap_preserved": true,
+    "method": "Imagegen seam-strip reconstruction; edge-feathered composite; wrapped 4K export"
+  },
+  "Skab": {
+    "source_size": [
+      2048,
+      1024
+    ],
+    "export_size": [
+      4096,
+      2048
+    ],
+    "source_interior_byte_identical": true,
+    "source_edited_longitude_fraction": 0.1875,
+    "repaired_seam_rms": 6.78340979430699,
+    "internal_neighbor_rms": 7.6583387395029785,
+    "original_release_heightmap_preserved": true,
+    "method": "Imagegen seam-strip reconstruction; edge-feathered composite; wrapped 4K export"
+  },
+  "Arktane": {
+    "source_size": [
+      2048,
+      1024
+    ],
+    "export_size": [
+      4096,
+      2048
+    ],
+    "source_interior_byte_identical": true,
+    "source_edited_longitude_fraction": 0.1875,
+    "repaired_seam_rms": 13.59480359901655,
+    "internal_neighbor_rms": 8.311301523070801,
+    "original_release_heightmap_preserved": true,
+    "method": "Imagegen seam-strip reconstruction; edge-feathered composite; wrapped 4K export"
+  },
+  "Lukas": {
+    "source_size": [
+      2048,
+      1024
+    ],
+    "export_size": [
+      4096,
+      2048
+    ],
+    "source_interior_byte_identical": true,
+    "source_edited_longitude_fraction": 0.1875,
+    "repaired_seam_rms": 11.824233590385468,
+    "internal_neighbor_rms": 8.138966844339295,
+    "original_release_heightmap_preserved": true,
+    "method": "Imagegen seam-strip reconstruction; edge-feathered composite; wrapped 4K export"
+  }
+}

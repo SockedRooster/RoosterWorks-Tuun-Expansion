@@ -1,0 +1,19 @@
+Tuun Expansion v0.10.0 - Hurr polish pass
+
+Hurr keeps its approved global color/height/biome maps and orbit.
+
+Changes:
+- denser PQS subdivision for closer landing detail
+- refined procedural relief for landing-scale terrain
+- tighter triplanar ground tiling to reduce stretched terrain appearance
+- smoother 40-atmosphere pressure curve
+- smoother 690 K surface-to-upper-atmosphere temperature curve
+- second high-altitude EVE haze layer using the existing Hurr cloud asset
+- expanded science: atmosphere analysis, seismic, Mystery Goo, materials bay,
+  and more biome-specific EVA reports
+
+Test:
+1. descent and close-range terrain
+2. landed surface
+3. atmosphere from surface to 105 km
+4. science in several biomes

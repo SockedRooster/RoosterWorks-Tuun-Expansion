@@ -1,0 +1,6 @@
+Built-in image generation prompt:
+
+Use case: photorealistic-natural. Asset type: seamless square repeating game terrain albedo for Arktane, a cryogenic world with thin blue-gray atmosphere in Kerbal Space Program. Orthographic straight-down fine glacial regolith: muted medium slate-gray ice-rich dust, tiny angular mineral chips and diffuse pale frost grains. Low-contrast cool blue-gray palette, less dark than carbon regolith, restrained uniform fine roughness. Pure albedo, flat diffuse illumination, no baked shadow/highlight. Seamless opposing edges, homogeneous grain brightness. No large rocks, craters, circular marks, cracks, continents, polar bands, grid, borders, text, perspective, recognizable repeating shapes. Opaque square texture.
+
+Exported to 1024x1024 RGB PNG. Matching normal/data maps computed locally.
+Final texture: PluginData/Parallax/Arktane/Arktane_RegolithTex.png

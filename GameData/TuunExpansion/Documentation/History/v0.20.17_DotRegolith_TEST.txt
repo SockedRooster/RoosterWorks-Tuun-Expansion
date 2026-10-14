@@ -1,0 +1,39 @@
+TuunExpansion v0.20.17 - Dot Regolith TEST
+
+Based on v0.20.16. Replaces Dot's repeating global-map ground material
+with a 1024x1024 square carbon-rich regolith tile. The previous detail
+textures were 512x256 miniature planetary maps with polar bands and
+craters, making the same large motifs recur on the ground.
+
+All four ground material tiers now reference Dot_RegolithTex.png and
+Dot_RegolithNrm.png. Normal detail is computed with wrapped derivatives;
+bump scale is reduced from 1.22 to 0.65. Neutral influence (127), full
+occlusion visibility (255), and zero displacement data replace the old
+global-map-derived auxiliary detail maps. Displacement scale remains zero.
+Texture tiling remains 0.055 for comparison with the previous build.
+Original detail assets are retained but no longer referenced by Dot's
+terrain material. Global Dot_Color/Height/Biomes maps remain untouched.
+
+Dot's rock scatter config is byte-for-byte identical to v0.20.16, as are
+its terrain geometry/orbit/biome/science configs and all other bodies.
+Lukas flicker remains deferred; this package makes no tree changes.
+
+The regolith albedo was generated using the built-in image generation
+tool; the exact prompt is included in Dot_Regolith_PROMPT.txt. Shader
+normal/data maps were computed locally. A four-tile visual preview and
+wrap-edge color checks passed. Edge variation is comparable to internal
+grain variation; this does not prove in-game terrain seams are resolved.
+
+Install: replace GameData/TuunExpansion with this ZIP's TuunExpansion
+folder and fully restart KSP. Keep existing dependencies installed.
+
+Retest Dot in daylight at the same locations, particularly midlands
+near latitude 30.80746, longitude 138.27823 and polar terrain near
+latitude 80.04417, longitude 159.39261. Let teleport physics easing
+finish before judging landing/collision behavior. Check ground patch
+boundaries, repeated motifs, detail scale and brightness while moving
+and panning. Rock density should be unchanged.
+
+Only package/material checks have been completed. KSP visual testing
+is required. If straight boundaries remain, investigate terrain UV/PQS
+and runtime material behavior separately from albedo repetition.

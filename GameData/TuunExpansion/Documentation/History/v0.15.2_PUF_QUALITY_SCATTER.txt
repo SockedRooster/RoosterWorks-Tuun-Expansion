@@ -1,0 +1,9 @@
+Tuun Expansion v0.15.2 - Puf Quality Scatter Pass
+
+Hurr, Rem, Flot and Aven now use a Promised Worlds/Puf-style multi-scale scatter stack.
+Normal terrain receives dense small debris, slabs, medium rocks and occasional large boulders.
+Impact crater and basin biomes are intentionally excluded from the normal dense scatter layers.
+Polar biomes are also excluded from normal rock fields to preserve their ice/frost identity.
+Steep terrain has separate slope-driven talus scatter.
+Terrain shader blend/displacement/bump settings were aligned more closely with Puf while preserving each body own maps and identity.
+Hurr dry basin/PQS correction is retained.

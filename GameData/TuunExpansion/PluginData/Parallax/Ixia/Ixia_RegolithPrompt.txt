@@ -1,0 +1,4 @@
+Built-in imagegen prompt:
+Use case: photorealistic-natural. Asset type: square seamlessly repeating game terrain albedo tile for Ixia, frozen terrestrial planet. Orthographic top-down granular muted violet-gray mineral regolith lightly dusted with pale frost, subtle small angular stone fragments, restrained desaturated lavender charcoal palette with fine gray-white ice grains. Uniform fine scale across frame, low contrast, pure albedo, flat illumination without shadows or directional highlights. Edges must tile seamlessly in both directions. No craters, large boulders, global maps, bands, grid, borders, text, perspective or broad obvious repeating patterns. Opaque square.
+
+Exported at 1024x1024 RGB. Detail normal computed using wrapped low-pass luminance derivatives. Neutral auxiliary shader maps generated separately. Terrain heightmap unchanged.

@@ -1,0 +1,292 @@
+{
+  "version": "0.20.30",
+  "method": "Bicubic resolution upgrade; longitude wrapping for global/cloud maps; ground normals renormalized. No new geographic, cloud or ground detail invented.",
+  "assets": [
+    {
+      "asset": "PluginData/Arktane_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 1.3569451608767658
+    },
+    {
+      "asset": "PluginData/Bub_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 0.7264598924382899
+    },
+    {
+      "asset": "PluginData/Dot_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 0.6142786423750289
+    },
+    {
+      "asset": "PluginData/Ixia_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 0.15127843079924308
+    },
+    {
+      "asset": "PluginData/Kol_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 1.393605955517902
+    },
+    {
+      "asset": "PluginData/Lukas_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 1.2788327993942599
+    },
+    {
+      "asset": "PluginData/Raga_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 0.8832893996439424
+    },
+    {
+      "asset": "PluginData/Skab_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 1.2882172250347141
+    },
+    {
+      "asset": "PluginData/Tom_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 0.5430960746059958
+    },
+    {
+      "asset": "PluginData/Vez_Color.png",
+      "before": [
+        2048,
+        1024
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 0.7512838184025109
+    },
+    {
+      "asset": "EVE/PluginData/Lukas_Clouds.png",
+      "before": [
+        1024,
+        512
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "L",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 0.010517900013934578
+    },
+    {
+      "asset": "EVE/PluginData/Tavool_Clouds.png",
+      "before": [
+        1024,
+        512
+      ],
+      "after": [
+        4096,
+        2048
+      ],
+      "mode": "L",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": true,
+      "downsample_roundtrip_rms": 0.020531050821902968
+    },
+    {
+      "asset": "PluginData/Parallax/Lukas/Lukas_LowNrm.png",
+      "before": [
+        512,
+        256
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": true,
+      "longitude_wrap_filter": false,
+      "downsample_roundtrip_rms": 0.0
+    },
+    {
+      "asset": "PluginData/Parallax/Lukas/Lukas_MidNrm.png",
+      "before": [
+        512,
+        256
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": true,
+      "longitude_wrap_filter": false,
+      "downsample_roundtrip_rms": 0.0
+    },
+    {
+      "asset": "PluginData/Parallax/Lukas/Lukas_HighNrm.png",
+      "before": [
+        512,
+        256
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": true,
+      "longitude_wrap_filter": false,
+      "downsample_roundtrip_rms": 0.0
+    },
+    {
+      "asset": "PluginData/Parallax/Lukas/Lukas_StpNrm.png",
+      "before": [
+        512,
+        256
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "mode": "RGB",
+      "normal_vectors_renormalized": true,
+      "longitude_wrap_filter": false,
+      "downsample_roundtrip_rms": 0.0
+    },
+    {
+      "asset": "PluginData/Parallax/Lukas/Lukas_Influence.png",
+      "before": [
+        512,
+        256
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": false,
+      "downsample_roundtrip_rms": 0.17664717272804709
+    },
+    {
+      "asset": "PluginData/Parallax/Lukas/Lukas_Displacement.png",
+      "before": [
+        512,
+        256
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": false,
+      "downsample_roundtrip_rms": 0.0
+    },
+    {
+      "asset": "PluginData/Parallax/Lukas/Lukas_Occlusion.png",
+      "before": [
+        512,
+        256
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "mode": "L",
+      "normal_vectors_renormalized": false,
+      "longitude_wrap_filter": false,
+      "downsample_roundtrip_rms": 0.0
+    }
+  ],
+  "unchanged": "Heightmaps, biome maps, science, resources, atmosphere/cloud settings, scatter and ground albedo textures. All prior 4K orbital maps preserved."
+}

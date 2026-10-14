@@ -1,0 +1,9 @@
+Tuun Expansion v0.15.1 - Parallax Scatter Parser Fix
+
+Rebuilt from v0.15.0 PW Quality Rebuild.
+- Rewrites Hurr, Rem, Flot, and Aven scatter configs using Promised Worlds-style multiline ConfigNode structure.
+- Expands Optimizations, SubdivisionSettings, DistributionNoise, LOD, MaterialOverride, and Keywords nodes.
+- Fixes the Parallax startup parse failure that caused settings such as frustumCullingScreenMargin, LOD limits, frequency, octaves, and lacunarity to be UNDEFINED.
+- Keeps the v0.15.0 high-quality terrain/material/map work unchanged.
+
+Install as a replacement for the previous TuunExpansion folder.

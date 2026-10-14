@@ -1,0 +1,9 @@
+Aven v0.15.4 Recovery / Safe Surface Pass
+
+- Rolls Aven terrain material textures and Parallax terrain shader configuration back to the proven v0.15.2 set.
+- Removes the v0.15.3 high-resolution material maps that produced red/white/black shader corruption.
+- Preserves Aven PQS, heightmap, orbital appearance, atmosphere, EVE and Scatterer configuration.
+- Retains only the safe v0.15.3 scatter tuning: Cratered Uplands are no longer globally blacklisted and rock coloration/reflection is reduced.
+- Ancient Basins and Polar Frostlands remain sparse by design.
+
+This is intentionally a recovery build before attempting another PW-format terrain-material upgrade.

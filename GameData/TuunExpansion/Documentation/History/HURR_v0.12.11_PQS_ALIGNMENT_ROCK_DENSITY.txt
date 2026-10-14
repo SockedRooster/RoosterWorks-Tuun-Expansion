@@ -1,0 +1,8 @@
+Hurr v0.12.11 - PQS Alignment + Rock Density Pass
+- Keeps ocean disabled.
+- Sets Parallax terrain displacement to zero so the rendered ground follows Hurr's physical PQS/collision surface.
+- Retains normal-map detail and regional ground textures.
+- Reduces small-rock density substantially.
+- Reduces boulders to occasional clusters.
+- Slightly reduces Hapke lighting response to tame bright terrain.
+- Hurr heightmap/PQS architecture is unchanged.

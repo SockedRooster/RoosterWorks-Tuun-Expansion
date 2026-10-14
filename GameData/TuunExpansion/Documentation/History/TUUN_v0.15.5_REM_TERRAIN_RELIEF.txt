@@ -1,0 +1,10 @@
+Tuun Expansion v0.15.5 - Rem Terrain Relief Pass
+
+Rem only:
+- Increased large-scale PQS height-map relief from 650 m to 6800 m.
+- Rebalanced base offset to -1100 m to retain broad lowlands/basins while creating meaningful uplands and ridges.
+- Increased secondary PQS relief from 105 m to 520 m so plains are no longer featureless at ground level.
+- Rem atmosphere, color map, biomes, Parallax materials, scatters, orbit, and scaled-space visuals are otherwise unchanged.
+- Hurr, Flot, and Aven are frozen/unchanged.
+
+Tom remains flagged for the Hurr-style ground-level/basin correction during its later pass.

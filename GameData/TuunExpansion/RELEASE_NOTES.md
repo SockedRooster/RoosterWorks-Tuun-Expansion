@@ -1,9 +1,20 @@
-# v1.0.4 source color-map repair TEST
+# TuunExpansion v1.0.4 — Stable Release
 
-**Promised Worlds is required.**
+**Status:** Stable; in-game tested by the maintainer. **Promised Worlds is required.**
 
-Ixia, Skab, Arktane and Lukas: reconstruct the discontinuous source-map longitude region using imagegen edits, preserving the original map outside the 192-pixel band on either side of the join (18.75% of source longitude). Feather repaired strips into unmodified source pixels. Repaired 2048x1024 sources rebuilt as wrapped 4096x2048 exports. Crater/basin/coast details within the repaired region change; biome classification and physical terrain do not.
+## Changes
 
-Based on accepted v1.0.0 gameplay content. Restores original release heightmaps and terrain-shaped orbital meshes rather than retaining the earlier seam-height/spherical-mesh diagnostics. Neutral orbital normals retained to avoid inherited template shading. Surface tiles, heightmap/biome data, scatter, clouds, resources and science unchanged from v1.0.0. Original release cache references retained because geometry matches that release.
+- Repaired longitude color-map seams on **Ixia, Skab, Arktane, and Lukas**.
+- Reconstructed and feathered affected source-map longitude regions, then rebuilt wrapped **4096×2048** orbital color maps.
+- Preserved the accepted v1.0.0 physical terrain, biome maps, science, resource definitions, clouds, scatters, and terrain-shaped orbital meshes.
+- Retained original cache references consistent with the preserved geometry.
 
-Install by replacing TuunExpansion and restarting KSP. Test four orbital views and globe rotations through the repaired longitude region. Visual source checks and archive checks passed; removal of the reported runtime band still requires in-game confirmation. Lukas tree flicker deferred. This is a test, not a promoted release.
+## Installation
+
+Install Promised Worlds, Kopernicus, ModuleManager, and compatible supporting dependencies. Remove an older `GameData/TuunExpansion` directory and extract the release ZIP into the KSP installation folder.
+
+## Known issue
+
+Lukas tree flicker remains unresolved. This release focuses on orbital color-map seam repairs, not tree-scatter behavior.
+
+The maintainer has confirmed successful in-game testing of v1.0.4.

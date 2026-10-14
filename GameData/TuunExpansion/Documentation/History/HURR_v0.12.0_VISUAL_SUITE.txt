@@ -1,5 +1,0 @@
-Hurr v0.12.0 Visual Suite
-Stable v0.11.1 height architecture retained.
-Dedicated Hurr Parallax surface textures replace borrowed Puf materials.
-Scatterer rebuilt in Promised Worlds Tuun style with hot amber/brown haze.
-EVE rebuilt as sparse dusty cloud deck plus high-altitude haze.

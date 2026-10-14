@@ -1,1 +1,0 @@
-Verda-only recovery from v0.15.6. Hurr/Rem/Flot/Aven untouched. Uses standard VertexHeightMap with original 16-bit heightmap, 18 km relief, conservative secondary noise, and proven Flot-style Parallax scatter architecture.

@@ -1,5 +1,0 @@
-Hurr v0.12.10 Rock Scatter Fix
-- Retains v0.12.9 lighting adjustment.
-- Rewrites Hurr Parallax rock LOD nodes using Promised Worlds / Parallax Continued multiline syntax.
-- Fixes the missing LOD range parsing and invalid concatenated model paths seen in KSP.log.
-- No changes to Hurr height architecture, atmosphere, clouds, or terrain geography.

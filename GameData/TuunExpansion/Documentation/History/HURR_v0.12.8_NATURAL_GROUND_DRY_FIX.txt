@@ -1,5 +1,0 @@
-Hurr v0.12.8 - Natural Ground + Dry Fix
-Keeps v0.12.7 regional landed coloration.
-Replaces directional Parallax detail with seamless isotropic rocky/regolith detail.
-Adds Template.removeOcean = True to remove Eve's inherited ocean.
-Does not change Hurr's proven heightmap loader or regional color map.

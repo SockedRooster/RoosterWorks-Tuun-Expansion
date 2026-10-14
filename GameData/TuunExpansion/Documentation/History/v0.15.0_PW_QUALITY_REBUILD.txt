@@ -1,9 +1,0 @@
-Tuun Expansion v0.15.0 - PW Quality Rebuild
-Bodies: Hurr, Rem, Flot, Aven
-- 4096x2048 global color + height maps
-- Dedicated 1024x1024 square tiled Parallax low/mid/high/steep materials
-- Dedicated normals, displacement, influence, occlusion
-- Two-tier rock scatter (small rocks + boulders)
-- Rem/Flot polar ice reinforced; Aven frost retained/reinforced
-- Hurr basin floor clamped above the zero-datum threshold to eliminate below-surface/water-like basin voids
-- Hurr height architecture remains standard VertexHeightMap; Niako loader is not reintroduced

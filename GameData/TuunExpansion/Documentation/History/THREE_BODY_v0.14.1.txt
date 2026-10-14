@@ -1,5 +1,0 @@
-Tuun Expansion v0.14.1 - Rem / Flot / Aven refinement
-REM: Scatterer rebuild, polar ice, denser varied rocks.
-FLOT: polar ice, denser varied rocks.
-AVEN: 2048x1024 close-range terrain textures/normals, finer tiling, stronger detail, polar ice, modest rock increase.
-No heightmaps, radii, or collision geometry changed.

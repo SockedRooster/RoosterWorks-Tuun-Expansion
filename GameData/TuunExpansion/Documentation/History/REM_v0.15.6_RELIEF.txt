@@ -1,3 +1,0 @@
-Rem relief pass v0.15.6
-Heightmap deformity 18,000 m; offset -2,800 m; secondary PQS relief 1,400 m.
-Hurr, Flot, Aven untouched.

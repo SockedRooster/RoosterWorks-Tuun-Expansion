@@ -1,6 +1,0 @@
-Hurr v0.12.9 - Light Terrain + Rocks
-- Darkened only the bright end of Hurr's native Parallax terrain textures.
-- Preserves dark/red regional terrain differences.
-- Added sparse Parallax Duna-style small rocks and larger boulders.
-- Rocks use installed Parallax stock scatter assets; no third-party assets redistributed.
-- Height/PQS architecture and dry-fix are unchanged.

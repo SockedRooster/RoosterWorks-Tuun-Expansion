@@ -1,1 +1,0 @@
-Hurr v0.12.3: global-color-driven regional materials; four distinct seamless rocky terrain families; PQS/atmosphere/Scatterer/EVE unchanged.

@@ -1,7 +1,0 @@
-Tuun Expansion v0.14.2 - Parse Fix
-
-- Aven: populationMultiplier changed from 2.4 to integer 2 for Parallax Continued.
-- Bub/Raga/Tom/Vez/Dot: expanded inline Material blocks to valid multiline ConfigNode syntax, eliminating malformed Color parsing.
-- Hurr EVE: normalized layer2D/macroCloudMaterial nodes to multiline syntax.
-- Verda Scatterer: normalized configPoints node to multiline syntax.
-- No terrain height architecture changed.

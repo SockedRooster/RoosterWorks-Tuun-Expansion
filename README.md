@@ -45,4 +45,15 @@ Rebuilding maps is optional for players. See [release notes](GameData/TuunExpans
 
 ## License and credits
 
-Original TuunExpansion contributions: **MIT**, see [LICENSE](LICENSE). Promised Worlds, Kopernicus, ModuleManager, Parallax, Scatterer, EVE, CRP, and their assets remain under their respective licenses and authorship. This repository does not relicense third-party material.
+Original TuunExpansion contributions use the dual license described below, see [LICENSE](LICENSE). Promised Worlds, Kopernicus, ModuleManager, Parallax, Scatterer, EVE, CRP, and their assets remain under their respective licenses and authorship. This repository does not relicense third-party material.
+
+## License
+
+Copyright (c) 2026 SockedRooster.
+
+This project uses **dual licensing**:
+
+- **Art assets:** All `.dds`, `.png`, and `.mu` files are **All Rights Reserved**. You may not redistribute or re-use these assets without express permission from the author.
+- **Everything else:** Original source code, configuration files, documentation, and other non-art files are distributed under the **MIT License**, subject to its terms.
+
+See the full [LICENSE](LICENSE) file for the MIT permission notice, conditions, and warranty disclaimer. Third-party content and dependencies retain their respective licenses; this notice does not grant rights to third-party assets.
